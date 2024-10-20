@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Conectar a la base de datos MongoDB
-mongoose.connect('mongodb+srv://wildliners2:qwert1234@cluster0.diusx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect(' Your Server MongoDB ')
     .then(() => console.log("Conectado a MongoDB")) // Mensaje de éxito si la conexión es correcta
     .catch(err => console.error("Error al conectar a MongoDB:", err)); // Manejo de errores si la conexión falla
 
