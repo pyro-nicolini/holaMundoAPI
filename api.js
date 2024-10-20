@@ -9,7 +9,7 @@ const port = 3000; // Definimos el puerto en el que se ejecutará el servidor
 app.use(express.json()); // Permite que la aplicación maneje datos en formato JSON en las solicitudes entrantes
 
 // Conectar a MongoDB
-mongoose.connect('mongodb+srv://wildliners2:qwert1234@cluster0.diusx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect(' Your Server MongoDB ')
     .then(() => console.log("Conectado a MongoDB")) // Mensaje de éxito al conectar
     .catch(err => console.error("Error al conectar a MongoDB:", err)); // Manejo de errores en caso de fallo
 
